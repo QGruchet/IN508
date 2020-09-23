@@ -2,8 +2,9 @@ run: compile
 	java Main
 
 compile:
-	javac Main.java
 	javac Fraction.java
+	javac Main.java
+
 
 clean:
 	rm *.class
